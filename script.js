@@ -157,7 +157,6 @@ function decodeMessage() {
       c <<= 1;
       c |= parseInt(binaryMessage[i + j]);
     }
-
     output += String.fromCharCode(c);
   }
 
